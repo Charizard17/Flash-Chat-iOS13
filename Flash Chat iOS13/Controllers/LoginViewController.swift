@@ -13,6 +13,10 @@ class LoginViewController: UIViewController {
 
     @IBOutlet weak var emailTextfield: UITextField!
     @IBOutlet weak var passwordTextfield: UITextField!
+    
+    override func viewWillAppear(_ animated: Bool) {
+        navigationController?.navigationBar.tintColor = UIColor.white
+    }
 
     @IBAction func loginPressed(_ sender: UIButton) {
         
