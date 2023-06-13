@@ -38,4 +38,3 @@ Backup[ ]of[ ]*.numbers/
 # Cocoapods
 Pods/
 Podfile.lock
-Pods/CLTypingLabel
